@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1667683547632,600,GET Users,200,OK,JSONPlaceholder 1-1,text,true,,6672,135,1,1,https://jsonplaceholder.typicode.com/users,587,0,495
+1667683548236,289,POST User,201,Created,JSONPlaceholder 1-1,text,true,,1172,500,1,1,http://jsonplaceholder.typicode.com/users/1/posts,289,0,30
+1667683548527,263,PUT User,200,OK,JSONPlaceholder 1-1,text,true,,1009,468,1,1,https://jsonplaceholder.typicode.com/posts/1,262,0,0
+1667683548792,233,PATCH  User,200,OK,JSONPlaceholder 1-1,text,true,,1287,472,1,1,http://jsonplaceholder.typicode.com/posts/1,233,0,0
+1667683549026,229,DELETE User,200,OK,JSONPlaceholder 1-1,text,true,,997,223,1,1,http://jsonplaceholder.typicode.com/posts/1,228,0,0
+1667683549257,40,GET Users,200,OK,JSONPlaceholder 1-1,text,true,,6676,135,1,1,https://jsonplaceholder.typicode.com/users,38,0,0
+1667683549298,235,POST User,201,Created,JSONPlaceholder 1-1,text,true,,1170,500,1,1,http://jsonplaceholder.typicode.com/users/1/posts,235,0,0
+1667683549534,246,PUT User,200,OK,JSONPlaceholder 1-1,text,true,,1005,468,1,1,https://jsonplaceholder.typicode.com/posts/1,246,0,0
+1667683549781,240,PATCH  User,200,OK,JSONPlaceholder 1-1,text,true,,1288,472,1,1,http://jsonplaceholder.typicode.com/posts/1,240,0,0
+1667683550023,227,DELETE User,200,OK,JSONPlaceholder 1-1,text,true,,993,223,1,1,http://jsonplaceholder.typicode.com/posts/1,227,0,0
+1667683550250,40,GET Users,200,OK,JSONPlaceholder 1-1,text,true,,6684,135,1,1,https://jsonplaceholder.typicode.com/users,39,0,0
+1667683550291,228,POST User,201,Created,JSONPlaceholder 1-1,text,true,,1170,500,1,1,http://jsonplaceholder.typicode.com/users/1/posts,228,0,0
+1667683550520,250,PUT User,200,OK,JSONPlaceholder 1-1,text,true,,1011,468,1,1,https://jsonplaceholder.typicode.com/posts/1,250,0,0
+1667683550772,224,PATCH  User,200,OK,JSONPlaceholder 1-1,text,true,,1290,472,1,1,http://jsonplaceholder.typicode.com/posts/1,223,0,0
+1667683550997,275,DELETE User,200,OK,JSONPlaceholder 1-1,text,true,,997,223,1,1,http://jsonplaceholder.typicode.com/posts/1,275,0,0
