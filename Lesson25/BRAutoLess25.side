@@ -1,0 +1,402 @@
+{
+  "id": "951105ea-74db-46c8-aabf-a51e4225a3ad",
+  "version": "2.0",
+  "name": "BRAutoLess25",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "e1977a3d-6af4-4296-a437-1921e9940af4",
+    "name": "Test1",
+    "commands": [{
+      "id": "50596fe6-57e5-4eab-b627-2f64acd49d24",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c14450f-e97d-4795-8eb5-f05084248899",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcd8615c-ad06-4531-8efc-5bb067a2bf5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fat-menu",
+      "targets": [
+        ["id=fat-menu", "id"],
+        ["css=#fat-menu", "css:finder"],
+        ["xpath=//button[@id='fat-menu']", "xpath:attributes"],
+        ["xpath=//rz-header-fat-menu/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff4e57a-6fdc-491c-8e7e-84f94305201f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки та комп’ютери",
+      "targets": [
+        ["linkText=Ноутбуки та комп’ютери", "linkText"],
+        ["css=.menu-categories__link_state_hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки та комп’ютери')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/computers-notebooks/c80253/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки та комп’ютери')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd26bd2d-3eaa-48a9-ab07-81363160a061",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.ng-star-inserted:nth-child(3) > .portal-section .portal-grid__cell:nth-child(1) .tile-cats__heading", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/notebooks/c80004/')])[20]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b469ddb-3368-484b-9f08-076bd11ab88e",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchline",
+      "targets": [
+        ["name=searchline", "name"],
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@name='searchline']", "xpath:attributes"],
+        ["xpath=//rz-filter-searchline/div/input", "xpath:position"]
+      ],
+      "value": "Lenovo"
+    }, {
+      "id": "6ff48b31-9c22-426d-b66d-f4c3c758723e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lenovo",
+      "targets": [
+        ["linkText=Lenovo", "linkText"],
+        ["css=rz-filter-section-autocomplete .checkbox-filter__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Lenovo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/notebooks/c80004/producer=lenovo/')]", "xpath:href"],
+        ["xpath=//rz-filter-section-autocomplete/ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lenovo ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e46a7b-1b6f-4ebd-a00d-43d6fa269983",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox-filter__link--checked",
+      "targets": [
+        ["css=.checkbox-filter__link--checked", "css:finder"],
+        ["xpath=(//a[contains(text(),'Lenovo')])[3]", "xpath:link"],
+        ["xpath=//rz-filter-section-autocomplete/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lenovo ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea9de1fd-9ca3-46c3-b60c-4c8d031c99af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,209)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25e4053b-9eb3-439d-96f1-ae69b84a02fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchline",
+      "targets": [
+        ["name=searchline", "name"],
+        ["css=.sidebar-block:nth-child(2) .sidebar-search__input", "css:finder"],
+        ["xpath=//input[@name='searchline']", "xpath:attributes"],
+        ["xpath=//rz-filter-searchline/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb07560c-a1f1-4321-8ece-b6f7b781852c",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchline",
+      "targets": [
+        ["name=searchline", "name"],
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@name='searchline']", "xpath:attributes"],
+        ["xpath=//rz-filter-searchline/div/input", "xpath:position"]
+      ],
+      "value": "Xia"
+    }, {
+      "id": "2fa49416-8611-4c3c-bb33-05ac6ab06a14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xiaomi",
+      "targets": [
+        ["linkText=Xiaomi", "linkText"],
+        ["css=rz-filter-section-autocomplete .checkbox-filter__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Xiaomi')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/notebooks/c80004/producer=xiaomi/')]", "xpath:href"],
+        ["xpath=//rz-filter-section-autocomplete/ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xiaomi ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46494f3-f4b1-455e-8b5e-5b863935bf4e",
+      "comment": "",
+      "command": "store",
+      "target": "Ноутбук Xiaomi",
+      "targets": [],
+      "value": "xiaomy"
+    }, {
+      "id": "64c4a5a3-5c2d-4be0-bd67-e95f984cdef4",
+      "comment": "",
+      "command": "store",
+      "target": "//*[@class='catalog-selection__link' and contains(text(),'Xiaomi')]",
+      "targets": [],
+      "value": "var1"
+    }, {
+      "id": "ceaa9aa7-16cd-4d1f-8cf3-2a106bed0b0a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "${var1}",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "8d4d22c5-bd30-4328-a6ae-1cd378bc02f7",
+      "comment": "",
+      "command": "assertText",
+      "target": "${var1}",
+      "targets": [],
+      "value": "Xiaomi"
+    }, {
+      "id": "1e965c3c-bf4a-4e82-a5db-61c889fe15ed",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "de557885-9331-4bfe-b32b-d5a061011cea",
+    "name": "Test2",
+    "commands": [{
+      "id": "64edd479-3443-40e5-9e36-fa7ab7c7c2af",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19245b74-177a-44db-9a57-cda09f4ed4dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a2ec20b-0cee-4d97-8266-d9e2b97e77ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки та комп’ютери",
+      "targets": [
+        ["linkText=Ноутбуки та комп’ютери", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки та комп’ютери')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18737e9c-2e6c-49ec-88c8-786f0796e955",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.ng-star-inserted:nth-child(3) > .portal-section .portal-grid__cell:nth-child(1) .tile-cats__heading", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/notebooks/c80004/')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4ab59e-139e-4794-b5a8-32b188d1b6be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ASUS",
+      "targets": [
+        ["linkText=ASUS", "linkText"],
+        ["css=rz-filter-section-autocomplete .checkbox-filter__item:nth-child(1) > .checkbox-filter__link", "css:finder"],
+        ["xpath=//a[contains(text(),'ASUS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/notebooks/c80004/producer=asus/')]", "xpath:href"],
+        ["xpath=//rz-filter-section-autocomplete/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ASUS ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67390638-84a0-4787-9deb-0895fafbbc1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar-block:nth-child(2) .scrollbar__slider",
+      "targets": [
+        ["css=.sidebar-block:nth-child(2) .scrollbar__slider", "css:finder"],
+        ["xpath=//div[2]/div/rz-scrollbar/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4394f92a-ecac-4c2a-990d-760906707e40",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HP",
+      "targets": [
+        ["linkText=HP", "linkText"],
+        ["css=rz-filter-section-autocomplete > .checkbox-filter:nth-child(1) > .checkbox-filter__item:nth-child(5) > .checkbox-filter__link", "css:finder"],
+        ["xpath=//a[contains(text(),'HP')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/notebooks/c80004/producer=hp-hewlett-packard/')]", "xpath:href"],
+        ["xpath=//rz-filter-section-autocomplete/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HP ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fa6d94b-6d03-48d8-bff9-096a63e8dd92",
+      "comment": "",
+      "command": "store",
+      "target": "css=.catalog-selection__link_type_reset",
+      "targets": [],
+      "value": "var1"
+    }, {
+      "id": "3f6aeae7-23e3-48cc-8c7b-130995bb03ed",
+      "comment": "",
+      "command": "assertText",
+      "target": "${var1}",
+      "targets": [],
+      "value": "Скасувати"
+    }, {
+      "id": "2d84a714-8c3e-4dbe-82bd-07f03c25966f",
+      "comment": "",
+      "command": "click",
+      "target": "${var1}",
+      "targets": [
+        ["css=.catalog-selection__link_type_reset", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Скасувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46594cf3-de70-47f7-b607-69902bb069bb",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3adb8580-25bd-4432-9cf4-f27d44d76a75",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "${var1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeacc96f-6e63-4d47-83e7-c2e9704aa49e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "beb5913c-e587-4ab0-8b48-765966832332",
+    "name": "Test3",
+    "commands": [{
+      "id": "6c01e59f-fce3-4720-8d07-976b2830c349",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47789949-ba81-4890-a46f-83d4d0040b13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ef4aec3-3ba5-4d51-96bd-9d1adef76099",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-goods__cell:nth-child(1) .wish-button > .ng-star-inserted",
+      "targets": [
+        ["css=.main-goods__cell:nth-child(1) .wish-button > .ng-star-inserted", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b2ace72-5482-4654-bb80-a1bd29100fb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-actions__item--wishlist svg",
+      "targets": [
+        ["css=.header-actions__item--wishlist svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "06d666c2-a0af-45a7-8837-8a1598a210c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=label",
+      "targets": [
+        ["css=label", "css:finder"],
+        ["xpath=//main[@id='cabinet-content']/rz-cabinet-wishlist/rz-cabinet-wishlist-details/section/ul/li/div/app-goods-tile/app-goods-tile-default/div/div[2]/div/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd708b24-a56d-4620-92a6-a66d171ad7f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-goods-delete",
+      "targets": [
+        ["css=.js-goods-delete", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//main[@id='cabinet-content']/rz-cabinet-wishlist/rz-cabinet-wishlist-details/section/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "654d5c4b-735e-4625-9986-7555ebf4c46b",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "2500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aed91b6c-8c3f-4225-9349-040f296f31f9",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "/html/body/app-root/div/div/rz-header/rz-main-header/header/div/div/ul/li[6]/rz-wishlist/a/rz-icon-counter/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4de6b37e-fd5b-442a-b108-e20daa1fc523",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9f91e43-513d-46fa-b982-1de121fa7049",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
